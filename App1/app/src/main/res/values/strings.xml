@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">App1</string>
+    <string name="sign_up_label">Sign Up</string>
+    <string name="log_in_label">Log In</string>
+
+    <string name="sign_up_or_label"> Sign Up </string>
+    <string name="log_in_or_label"> Log In </string>
+
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="confirm_hint">Confirm Password</string>
+
+    <string name="or"> Or </string>
+    <string name="title_activity_employess_navigation">EmployessNavigation</string>
+    <string name="title_home">About</string>
+    <string name="title_dashboard">Notifications</string>
+    <string name="title_notifications">LogOut</string>
+</resources>

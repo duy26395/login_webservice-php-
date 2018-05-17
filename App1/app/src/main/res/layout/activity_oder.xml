@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Oder">
+
+   <android.support.v7.widget.CardView
+       android:layout_width="match_parent"
+       app:cardCornerRadius="10sp"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width = "match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25dp"
+               android:text="Name"
+               android:paddingLeft="10dp"
+               android:id="@+id/id_odername"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+               android:id="@+id/id_oderphone"
+               android:paddingLeft="10dp"
+               android:text="Phone"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="20dp"
+               android:paddingLeft="10dp"
+               android:text="Address"
+               android:id="@+id/id_oderaddress"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_marginTop="5dp"
+               android:layout_weight="1"
+               android:padding="10dp"
+               android:orientation="horizontal"
+               android:layout_height="wrap_content">
+               <Button
+                   android:layout_width="wrap_content"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content"
+                   android:text="Hoá Đơn"
+                   android:id="@+id/id_oderbill"/>
+
+               <Button
+                   android:layout_width="wrap_content"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content"
+                   android:text="Nhật Ký"
+                   android:id="@+id/id_oderdinary"/>
+           </LinearLayout>
+       </LinearLayout>
+   </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tìm Món"
+            android:id="@+id/id_odersearch"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/id_oderRecycle">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+</LinearLayout>

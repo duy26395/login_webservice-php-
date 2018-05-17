@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restaurent Ahihi"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:autoSizeTextType="uniform"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Deverloper : ahihi"
+        android:textStyle="italic"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="40dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:text="Contacts : Ahihi Team"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:text="là một ứng dụng oder món ăn nhà hàng giúp nhân viên có thể oder nhanh chóng món ăn cho khác hàng"/>
+</LinearLayout>
